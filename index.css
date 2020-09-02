@@ -39,8 +39,9 @@ body {
 
 /* Navigation */
 nav {
-    margin: 2% auto;
+    margin: 0 auto;
     width: 75%;
+    padding: 1.5%;
 }
 
 nav a {
@@ -125,7 +126,7 @@ header img {
 }
 
 .callout img {
-    width: 60%;
+    width: 50%;
 }
 
 .callout p span {
