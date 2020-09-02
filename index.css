@@ -1,0 +1,172 @@
+/* CSS Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    color: black;
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+ol, ul {
+     list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Theme */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* Navigation */
+nav {
+    margin: 0 auto;
+    width: 75%;
+    padding: 1.5%;
+}
+
+nav a {
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    height: 100%;
+    padding: 1%;
+    text-align: center;
+    width: 15%;
+}
+
+.plan {
+    background-color: #FF764E;
+}
+
+.plan:hover {
+    border: 2px solid #FF764E;
+    color: #FF764E;
+    background-color: white;
+}
+
+.learn {
+    background-color: #5ED3EB;
+    margin: 0 26.35%;
+}
+
+.learn:hover {
+    border: 2px solid #5ED3EB;
+    color: #5ED3EB;
+    background-color: white;
+}
+
+.involve {
+    background-color: #FFCD69;
+}
+
+.involve:hover {
+    border: 2px solid #FFCD69;
+    color: #FFCD69;
+    background-color: white; 
+}
+
+/* Header */
+
+header {
+    width: 100%;
+}
+
+header img {
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1% 5%;
+    width: 20%;
+}
+
+.heading-text {
+    display: inline-block;
+    margin: 1% auto;
+    text-align: center;
+    width: 60%;
+}
+
+.heading-text h1 {
+    font-size: 5rem;
+    letter-spacing: .15rem; 
+}
+
+.subtitle {
+    padding: 5%;
+}
+
+.description {
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* Section 1 */
+
+.section-one {
+    background-color: #DDB9A3;
+    color: white;
+    margin: 1% auto;
+    padding: 1%;
+    text-align: center;
+    width: 90%;
+}
+
+.section-one p {
+    padding: 1%;
+}
+
+
+/* Section 2 */
+
+.section-two {
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+}
+
+.callout img {
+    width: 50%;
+}
+
+.callout p span {
+    font-weight: 700;
+}
+
+.callout p span:hover {
+    font-size: 2rem;
+}
+
+/* Footer */
+
+.bottom-footer {
+    background-color: #F9E7DC;
+}
+
+footer .img {
+    background-image:url('/assets/footer_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35vh;
+    margin-top: 7%;
+    max-width: 100%;
+
+}
