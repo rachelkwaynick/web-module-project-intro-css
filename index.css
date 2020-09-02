@@ -1,0 +1,80 @@
+/* CSS Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    color: #4f4f4f;
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+ol, ul {
+     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+/* Theme */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+
+/* Navigation */
+
+nav {
+
+}
+
+.plan {
+    background-color: #FF764E;
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+
+.involve {
+    background-color: #FFCD69;
+}
+
+/* Header */
+
+
+
+/* Section 1 */
+
+.section-one {
+    background-color: #DDB9A3;
+}
+
+.callout p span {
+    font-weight: 700;
+}
+
+/* Section 2 */
+
+
+/* Footer */
+
+footer {
+    background-color: #F9E7DC;
+}
