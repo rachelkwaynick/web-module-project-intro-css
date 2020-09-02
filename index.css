@@ -58,13 +58,31 @@ nav a {
     background-color: #FF764E;
 }
 
+.plan:hover {
+    border: 2px solid #FF764E;
+    color: #FF764E;
+    background-color: white;
+}
+
 .learn {
     background-color: #5ED3EB;
     margin: 0 26.35%;
 }
 
+.learn:hover {
+    border: 2px solid #5ED3EB;
+    color: #5ED3EB;
+    background-color: white;
+}
+
 .involve {
     background-color: #FFCD69;
+}
+
+.involve:hover {
+    border: 2px solid #FFCD69;
+    color: #FFCD69;
+    background-color: white; 
 }
 
 /* Header */
@@ -131,6 +149,10 @@ header img {
 
 .callout p span {
     font-weight: 700;
+}
+
+.callout p span:hover {
+    font-size: 2rem;
 }
 
 /* Footer */
